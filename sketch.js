@@ -10,7 +10,7 @@ var v_y = 1;
 document.getElementById("param_k").innerHTML = toString(k);
 
 function setup() {
-  createCanvas(800, 800); 
+  createCanvas(900, 900); 
   background(0);
   attracter = new Attracter (k,n);
   mover = new Mass(width / 2 + x, height / 2 - y, v_x, -v_y, 10);
